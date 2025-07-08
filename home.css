@@ -2,6 +2,7 @@
 
 :root {
   line-height: 1.5;
+  font-family: 'Ubuntu';
 }
 
 h1, h2, h3, h4, h5, figure, p, ol, ul {
@@ -23,7 +24,33 @@ img {
   max-inline-size: 100%;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+}
+
+#center-links {
+  color: white;
+  font-weight: 350;
+  gap: 30px;
+}
+
 header {
   background-color: lightpink;
-  display: flex;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px 0 20px;
+}
+
+#header-logo {
+  height: 15px;
+}
+
+#header-button {
+  border: none;
+  font-size: 16px;
+  font-weight: 350;
+  border-radius: 5px;
+  background-color: white;
 }
